@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings author="Léon de Jong" version="1.2" preset="black">		<!--Settings ImageViewer - http://leondejong.com - Delete browser cache before using new settings-->
+	<image>
+		<alpha>1</alpha>											<!--Decimal value between 0 and 1 defining the percentage of the image transparency-->
+		<margin>20</margin>											<!--Integer value defining the image margin in pixels (border excluded)-->
+		<border>10</border>											<!--Integer value defining the image border (the amount by which the imageframe is bigger than the image itself)-->
+		<fadespeed>0.5</fadespeed>									<!--Decimal value or integer defining the image fade-in speed in seconds-->
+	</image>
+	<background color="0x222222">									<!--Hexadecimal value defining the background color-->
+		<image>
+			<url></url>												<!--String value defining the background image location (leave empty to omit)-->
+			<alpha>0</alpha>										<!--Decimal value between 0 and 1 defining the percentage of the background image transparency-->
+			<fadespeed>0</fadespeed>								<!--Decimal value or integer defining the background image fade-in speed in seconds-->
+		</image>
+		<pattern>
+			<url></url>												<!--String value defining the background pattern location (leave empty to omit)-->
+			<alpha>0</alpha>										<!--Decimal value between 0 and 1 defining the percentage of the background pattern transparency-->
+		</pattern>
+	</background>
+	<frame>
+		<color>0x000000</color>										<!--Hexadecimal value defining the frame color-->
+		<alpha>1</alpha>											<!--Decimal value between 0 and 1 defining the percentage of the frame transparency-->
+		<animationspeed>0.7</animationspeed>						<!--Decimal value or integer defining the frame animation speed in seconds-->
+	</frame>
+	<bars height="32">												<!--Integer value defining the height of the bars in pixels-->
+		<top>
+			<color>0x000000</color>									<!--Hexadecimal value defining the topbar color-->
+			<alpha>1</alpha>										<!--Decimal value between 0 and 1 defining the percentage of the topbar transparency-->
+			<shade>true</shade>										<!--Boolean value (true or false) defining if the topbar gets shaded-->
+		</top>
+		<bottom>
+			<color>0x000000</color>									<!--Hexadecimal value defining the bottombar color-->
+			<alpha>1</alpha>										<!--Decimal value between 0 and 1 defining the percentage of the bottombar transparency-->
+			<shade>true</shade>										<!--Boolean value (true or false) defining if the bottombar gets shaded-->
+		</bottom>
+	</bars>
+	<text sidemargin="10">											<!--Integer value defining the text left and right margins in pixels-->
+		<name>
+			<size>20</size>											<!--Integer value defining the nametext fontsize in pixels-->
+			<color>0xDDDDDD</color>									<!--Hexadecimal value defining the nametext color-->
+			<align>left</align>										<!--String value (left, center, right) defining the nametext alignment-->
+		</name>
+		<description>
+			<size>20</size>											<!--Integer value defining the descriptiontext fontsize in pixels-->
+			<color>0xDDDDDD</color>									<!--Hexadecimal value defining the descriptiontext color-->
+			<align>left</align>										<!--String value (left, center, right) defining the descriptiontext alignment-->
+		</description>
+		<position>
+			<size>20</size>											<!--Integer value defining the image-positiontext fontsize in pixels-->
+			<color>0xDDDDDD</color>									<!--Hexadecimal value defining the image-positiontext color-->
+			<align>right</align>									<!--String value (left, center, right) defining the image-positiontext alignment-->
+		</position>
+	</text>
+	<buttons size="50">												<!--Integer value defining the button size in pixels-->
+		<next>
+			<uparrowcolor>0xDDDDDD</uparrowcolor>					<!--Hexadecimal value defining the nextbutton arrow upstate color-->
+			<overarrowcolor>0xDDDDDD</overarrowcolor>				<!--Hexadecimal value defining the nextbutton arrow overstate color-->
+			<downarrowcolor>0xDDDDDD</downarrowcolor>				<!--Hexadecimal value defining the nextbutton arrow downstate color-->
+			<upbackgroundcolor>0x000000</upbackgroundcolor>			<!--Hexadecimal value defining the nextbutton background upstate color-->
+			<overbackgroundcolor>0x222222</overbackgroundcolor>		<!--Hexadecimal value defining the nextbutton background overstate color-->
+			<downbackgroundcolor>0x444444</downbackgroundcolor>		<!--Hexadecimal value defining the nextbutton background downstate color-->
+			<alpha>1</alpha>										<!--Decimal value between 0 and 1 defining the percentage of the nextbutton transparency-->
+			<shade>true</shade>										<!--Boolean value (true or false) defining if the nextbutton gets shaded-->
+		</next>
+		<previous>
+			<uparrowcolor>0xDDDDDD</uparrowcolor>					<!--Hexadecimal value defining the previousbutton arrow upstate color-->
+			<overarrowcolor>0xDDDDDD</overarrowcolor>				<!--Hexadecimal value defining the previousbutton arrow overstate color-->
+			<downarrowcolor>0xDDDDDD</downarrowcolor>				<!--Hexadecimal value defining the previousbutton arrow downstate color-->
+			<upbackgroundcolor>0x000000</upbackgroundcolor>			<!--Hexadecimal value defining the previousbutton background upstate color-->
+			<overbackgroundcolor>0x222222</overbackgroundcolor>		<!--Hexadecimal value defining the previousbutton background overstate color-->
+			<downbackgroundcolor>0x444444</downbackgroundcolor>		<!--Hexadecimal value defining the previousbutton background downstate color-->
+			<alpha>1</alpha>										<!--Decimal value between 0 and 1 defining the percentage of the previousbutton transparency-->
+			<shade>true</shade>										<!--Boolean value (true or false) defining if the previousbutton gets shaded-->
+		</previous>
+	</buttons>
+	<preloader>
+		<backgroundcolor>0x222222</backgroundcolor>					<!--Hexadecimal value defining the preloader background color-->
+		<loadbarcolor>0xFF0000</loadbarcolor>						<!--Hexadecimal value defining the preloader loadbar color-->
+		<alpha>1</alpha>											<!--Decimal value between 0 and 1 defining the percentage of the preloader transparency-->
+	</preloader>
+</settings>															<!--Settings ImageViewer - Léon de Jong - http://leondejong.com - Delete browser cache before using new settings-->

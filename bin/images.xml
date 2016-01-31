@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<images author="Léon de Jong" version="1.2">
+		<image>
+			<url>
+				images/cigars.jpg
+			</url>
+			<name>
+				Cigars
+			</name>
+			<description>
+				Cigars
+			</description>
+		</image>
+		<image>
+			<url>
+				images/doors.jpg
+			</url>
+			<name>
+				Doors
+			</name>
+			<description>
+				Doors
+			</description>
+		</image>
+		<image>
+			<url>
+				images/dragonfly.jpg
+			</url>
+			<name>
+				Dragonfly
+			</name>
+			<description>
+				Dragonfly
+			</description>
+		</image>
+		<image>
+			<url>
+				images/tree.jpg
+			</url>
+			<name>
+				Solitary Tree
+			</name>
+			<description>
+				Solitary Tree
+			</description>
+		</image>
+		<image>
+			<url>
+				images/lighthouse.jpg
+			</url>
+			<name>
+				Lighthouse
+			</name>
+			<description>
+				Lighthouse
+			</description>
+		</image>
+</images>
